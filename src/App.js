@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import useSWR from 'swr';
-import axios from 'axios'
+import axios from 'axios';
 
 import './App.css';
 

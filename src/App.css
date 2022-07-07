@@ -48,7 +48,7 @@
 }
 
 .product-form input[type=text],
-.product-form input[type=number]{
+.product-form input[type=number] {
   border: none;
   outline: none;
   padding: 4px;
