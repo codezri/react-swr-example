@@ -58,7 +58,12 @@ function AddProduct({ goToList }) {
     goToList();
     mutate(async () => {
       return [...products, await addProduct(product)]
-    }, { optimisticData: [...products, product], rollbackOnError: true, revalidate: false } );
+    }, {
+        optimisticData: [...products, product],
+        rollbackOnError: true,
+        revalidate: false
+        }
+    );
   }
 
   function handleFieldUpdate(e) {
